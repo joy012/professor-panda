@@ -3,7 +3,13 @@ import './Counter.css';
 
 const Counter = (props) => {
     const courseTaken = props.cart;
-    const totalCost = courseTaken.reduce((total, course) => total + course.price, 0);
+    let totalPrice = courseTaken.reduce((total, course) => {
+        const previousTotal = parseInt((total).split(',').join(''));
+        const price = course.price;
+        const result = (previousTotal + price).toLocaleString();
+        return result;
+    },'0');
+
     return (
         <div className="container counter text-white my-4 text-center">
             <h2 className="py-3">Courses Added To Cart: {courseTaken.length}</h2>
@@ -19,7 +25,7 @@ const Counter = (props) => {
                     </div>
                 )
             }
-            <h3 className="pb-2">Total Cost: $ {totalCost}</h3>
+            <h3 className="pb-2">Total Cost: $ {totalPrice}</h3>
         </div>
     );
 };

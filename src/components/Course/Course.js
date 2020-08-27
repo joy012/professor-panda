@@ -2,15 +2,13 @@ import React from 'react';
 import './Course.css';
 
 const Course = (props) => {
-    const {name, image, teacher, price,isTaken, id, student} = props.course;
+    const {name, image, teacher, price,isTaken, id, student, seat, year} = props.course;
     const handleAddBtn = props.handleAddBtn;
-    const year = 2018 + (Math.round(Math.random() * 10) + 2);
-    const seat = Math.round(Math.random() * (999 - 100)) + 100;
 
     const updateBtn = () => {
         if(isTaken){
             return (
-                <button className="btn btn-outline-danger d-block mx-auto mb-3 rounded-pill" onClick={() => handleAddBtn(props.course, 'taken')}><i className="fas fa-arrow-right"></i> Remove Course</button>
+                <button className="btn btn-outline-danger d-block mx-auto mb-3 rounded-pill" onClick={() => handleAddBtn(props.course, 'taken')}><i class="fas fa-trash"></i> Remove Course</button>
             )
         }
         else{
