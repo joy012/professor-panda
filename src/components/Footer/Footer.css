@@ -1,0 +1,66 @@
+.subscribe{
+    background: linear-gradient(135deg,#09C6F9,#045DE9);
+    border-radius: 12px;
+}
+.icons{
+    overflow: hidden;
+}
+.icons ul{
+    margin: 0;
+    padding: 0;
+}
+
+.icons ul li{
+    list-style: none;
+    float: left;
+    margin-right:10px ;
+}
+
+.icons ul li:last-child{
+    margin-right: 0;
+}
+
+.icons ul li a{
+    background-color: white;
+    background-image: url("../../images/im.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.25s;
+}
+.icons ul li:nth-child(1) a{
+    background-position: -13px 13px;
+}
+.icons ul li:hover:nth-child(1) a{
+    background-position: -13px -72px;
+
+}
+
+.icons ul li:nth-child(2) a{
+    background-position: -348px 10px;
+}
+
+
+.icons ul li:hover:nth-child(2) a{
+    background-position: -348px -75px;
+
+}
+
+.icons ul li:nth-child(3) a{
+    background-position: -684px 12px;
+}
+
+.icons ul li:hover:nth-child(3) a{
+    background-position: -684px -73px;
+}
+
+.icons ul li:nth-child(4) a{
+    background-position: -852px 12px;;
+}
+
+.icons ul li:hover:nth-child(4) a{
+    background-position: -852px -73px;
+}

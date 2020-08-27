@@ -1,0 +1,24 @@
+.counter{
+    background: linear-gradient(135deg, #56CCF2, #2F80ED);
+    border-radius: 12px
+}
+.course-img{
+    width: 150px;
+    height: 85px!important;
+}
+.container{
+    border-radius: 30px;
+}
+.course{
+    border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 767px){
+    .course-img{
+        width: 100px;
+        height: 57px!important;
+    }
+    h4{
+        font-size: 16px;
+    }
+}

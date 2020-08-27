@@ -1,4 +1,4 @@
-.header{
+.header-bg{
     background-color: #e8f9fd;
 }
 .container{
@@ -7,4 +7,7 @@
 .navbar-nav a{
     font-size: 1.25rem!important;
     padding-left: 30px!important;
+}
+.text-crimson{
+    color: crimson;
 }

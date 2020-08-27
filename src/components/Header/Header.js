@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div className="header">
+        <div className="header-bg">
             <nav className="container navbar navbar-expand-md navbar-light text-dark py-3">
                 <a className="navbar-brand" href="\">
                     <img className="w-50 h-50 rounded-circle" src={logo} alt=""/>
@@ -22,12 +22,13 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-            <div className="container pb-3">
+            <div className="container pb-3 header-text">
                 <div className="row align-items-center">
                     <div className="col-md-7 align-items center">
-                        <h5 className="text-success">Are You Ready to Explore?</h5>
+                        <h5 className="text-success">Web Development Is Fun!</h5>
                         <h1 className="display-4">Learn With</h1>
-                        <h1 className="display-4 text-primary">Professor Panda</h1>
+                        <h1 className="display-4 text-primary">Mr. Professor</h1>
+                        <h5 className="text-crimson">The Great Professor Panda</h5>
                     </div>
                     <div className="col-md-5">
                         <img className="w-100" src={logo2} alt=""/>
