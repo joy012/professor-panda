@@ -30,7 +30,7 @@ const courses = [
         id: 4,
         name: 'The complete Javascript ES6 course',
         teacher: 'Sean Orozco',
-        image: 'https://raw.githubusercontent.com/joy012/professor-panda/master/src/images/s6.jpg',
+        image: 'https://raw.githubusercontent.com/joy012/professor-panda/master/src/images/es6.jpg',
         price: 9.99,
         student: '4,377',
         rating: 4.4
@@ -57,7 +57,7 @@ const courses = [
         id: 7,
         name: 'The Complete Front-End Web Development Course',
         teacher: 'Harmony Merritt',
-        image: 'https://raw.githubusercontent.com/joy012/professor-panda/master/src/images/.jpg',
+        image: 'https://raw.githubusercontent.com/joy012/professor-panda/master/src/images/frontend.jpg',
         price: 38.99,
         student: '26,295',
         rating: 4.3

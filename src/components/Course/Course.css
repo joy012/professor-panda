@@ -21,7 +21,11 @@
 
 
 
-
+@media screen and (min-width:1200px){
+    .course{
+        padding: 30px 20px;
+    }
+}
 @media screen and (max-width:575px){
     .course{
         padding: 0 70px;
