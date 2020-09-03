@@ -30,14 +30,16 @@ const List = () => {
     }
 
     return (
-        <div className="p-4 p-md-5">
+        <div className="p-2 p-md-5">
             <h1 className="text-center pb-3">Explore With Professor Panda</h1>
-            <div className="row row-cols-1 row-cols-lg-3 row-cols-sm-2">
-                {
-                    courses.map(course => <Course course={course} handleAddBtn={handleAddBtn}></Course>)
-                }
+            <div className="container">
+                <div className="row row-cols-1 row-cols-lg-3 row-cols-sm-2">
+                    {
+                        courses.map(course => <Course course={course} handleAddBtn={handleAddBtn}></Course>)
+                    }
+                </div>
             </div>
-            <Counter cart={cart}></Counter>
+            <Counter cart={cart} handleAddBtn={handleAddBtn}></Counter>
         </div>
     );
 };

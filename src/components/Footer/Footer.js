@@ -18,12 +18,12 @@ const Footer = () => {
                 <h5 className="text-center text-white">Follow Us On:</h5>
                 <ul>
                     <li><a href="https://www.facebook.com/" target="_blank"></a></li>
-                    <li><a href="https://dribbble.com/" target="_blank"></a></li>
-                    <li><a href="https://www.pinterest.com/" target="_blank"></a></li>
-                    <li><a href="https://www.skype.com/" target="_blank"></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank"></a></li>
+                    <li><a href="https://www.twitter.com/" target="_blank"></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"></a></li>
                 </ul>
             </div>
-            <h6 className="text-center">&copy; All right reserved. Panda Tech - 2020</h6>
+            <h6 className="text-center text-white">&copy; All right reserved. Panda Tech - 2020</h6>
         </div>
     );
 };
